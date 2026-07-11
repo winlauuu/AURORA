@@ -1042,7 +1042,6 @@ background-size:100% 34px;
     .secret-text {
         font-size: 14px;
     }
-}
 /* SECRET SCENES */
 
 .secret-scene {
@@ -1053,7 +1052,6 @@ background-size:100% 34px;
 .secret-scene.active {
     display: block;
 }
-
 .secret-video-wrapper {
     margin: 28px 0 30px;
     overflow: hidden;
