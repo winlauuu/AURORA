@@ -1694,4 +1694,30 @@ background-size:100% 34px;
     .image-modal p {
         font-size: 17px;
     }
+/* ===== HERO TITLE ===== */
+
+.hero-title{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    flex-wrap:nowrap;
+}
+
+.hero-heart{
+    flex-shrink:0;
+    display:inline-block;
+}
+
+@media (max-width:680px){
+
+    .hero-title{
+        gap:10px;
+        font-size:36px;
+        line-height:1.1;
+    }
+
+    .hero-heart{
+        font-size:.9em;
+    }
+
 }
