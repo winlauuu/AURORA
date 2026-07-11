@@ -1045,9 +1045,15 @@ background-size:100% 34px;
 }
 /* SECRET SCENES */
 
-.secret-scene {
-    display: none;
-    animation: secretFade 0.45s ease both;
+@keyframes secretFade {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .secret-scene.active {
