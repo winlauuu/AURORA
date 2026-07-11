@@ -85,7 +85,7 @@ function updateGreeting() {
         greeting = "Good Night";
     }
 
-    greetingText.textContent = `${greeting}, Sayang ❤️`;
+    greetingText.textContent = `${greeting}, Sayang`;
 }
 
 updateGreeting();
