@@ -1222,3 +1222,178 @@ background-size:100% 34px;
         line-height: 1.6;
     }
 }
+/* ===== FINAL MOBILE FIX ===== */
+
+@media (max-width: 680px) {
+
+    /* HOME */
+    .home-page {
+        padding: 32px 18px 50px;
+    }
+
+    .home-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .home-header {
+        margin-bottom: 26px;
+    }
+
+    .home-eyebrow {
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+    .home-header h2 {
+        margin-top: 14px;
+        font-size: 38px;
+        line-height: 1.08;
+        letter-spacing: -1px;
+    }
+
+    .welcome-message {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+
+    .home-quote {
+        width: 100%;
+        max-width: none;
+        margin-top: 24px;
+        padding: 20px 18px;
+        border-radius: 0 18px 18px 0;
+    }
+
+    .home-quote p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    /* EMOJI */
+    .mood-section {
+        margin: 24px 0 30px;
+    }
+
+    .mood-options {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+    }
+
+    .mood-options button {
+        width: 100%;
+        max-width: 54px;
+        height: 54px;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+
+    /* MENU HOME */
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .menu-card,
+    .secret-menu-card {
+        min-height: 155px;
+        padding: 24px 22px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 24px;
+    }
+
+    .menu-icon,
+    .secret-menu-card .menu-icon {
+        margin-bottom: 12px;
+        font-size: 30px;
+    }
+
+    .menu-title {
+        margin-bottom: 7px;
+        font-size: 25px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .menu-description {
+        max-width: 280px;
+        font-size: 12px;
+        line-height: 1.55;
+        text-align: center;
+    }
+
+    /* HALAMAN DALAM */
+    .content-page {
+        padding: 24px 18px 55px;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    .back-button {
+        margin-bottom: 34px;
+    }
+
+    .content-header {
+        margin-bottom: 34px;
+    }
+
+    .content-header h2 {
+        font-size: 42px;
+        line-height: 1.08;
+    }
+
+    .content-header > p:last-child {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* DISTANCE: tetap mendatar di HP */
+    .distance-card {
+        grid-template-columns: 1fr auto 1fr;
+        gap: 10px;
+        padding: 28px 14px;
+        border-radius: 24px;
+    }
+
+    .flag {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .city h3 {
+        font-size: 24px;
+    }
+
+    .city p {
+        font-size: 11px;
+    }
+
+    .heart-distance {
+        font-size: 25px;
+        transform: none;
+    }
+
+    .days-counter {
+        margin-top: 18px;
+        padding: 28px 18px;
+        border-radius: 24px;
+    }
+
+    .days-counter h1 {
+        font-size: 78px;
+    }
+
+    .distance-message {
+        margin-top: 22px;
+        padding: 20px 14px;
+    }
+
+    .distance-message p {
+        font-size: 18px;
+    }
+}
