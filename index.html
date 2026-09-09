@@ -1248,33 +1248,51 @@
 
         </header>
 
-        <div class="distance-card">
+        <div class="distance-card live-distance-card">
 
-            <div class="city">
+    <div class="city">
+        <span class="flag">🇮🇩</span>
+        <h3>Jakarta</h3>
+        <p>Indonesia</p>
+    </div>
 
-                <span class="flag">🇮🇩</span>
+    <div class="heart-distance">
+        ✨
+    </div>
 
-                <h3>Jakarta</h3>
+    <div class="city">
+        <span class="flag">📍</span>
+        <h3 id="liveLocationName">Waiting...</h3>
+        <p id="liveLocationStatus">Waiting for location</p>
+    </div>
 
-                <p>Indonesia</p>
+</div>
 
-            </div>
+<div class="live-location-wrapper">
 
-            <div class="heart-distance">
-                ✨
-            </div>
+    <div id="locationMap"></div>
 
-            <div class="city">
+    <div class="location-info">
 
-                <span class="flag">🇦🇺</span>
+        <p class="location-label">
+            CURRENT LOCATION
+        </p>
 
-                <h3>Emerald</h3>
+        <h3 id="locationTitle">
+            Waiting for location...
+        </h3>
 
-                <p>Queensland</p>
+        <p id="locationCoordinates">
+            Location has not been shared yet.
+        </p>
 
-            </div>
+        <p id="locationUpdated">
+            —
+        </p>
 
-        </div>
+    </div>
+
+</div>
 
         <div class="days-counter">
 
@@ -1569,6 +1587,21 @@
     🎵
 </button>
 
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/12.18.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.18.0/firebase-database-compat.js"></script>
+
+<!-- Leaflet Map -->
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- AURORA Location -->
+<script src="js/location.js"></script>
+
+<!-- Existing AURORA -->
 <script src="js/app.js"></script>
 
 </body>
